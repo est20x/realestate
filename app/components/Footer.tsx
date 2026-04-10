@@ -9,19 +9,20 @@ export default function Footer() {
         <a href="#contact-form" className="text-sm 2xl:text-[16px] font-light hover:text-[#FFE643] cursor-pointer transition-colors text-left bg-transparent border-0 text-white no-underline">Стать владельцем недвижимости</a>
       </div>
 
-      {/* Копірайт + Developed by */}
+      {/* Права частина */}
       <div className="flex flex-col lg:flex-row items-start lg:items-center gap-2 lg:gap-6">
+        <div className="text-[13px] 2xl:text-[14px] font-light text-white/40 lg:text-white/50">
+          Copyright 2026
+        </div>
         
           href="https://t.me/est20x"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-[13px] 2xl:text-[14px] font-light text-white/40 hover:text-[#FFE643] transition-colors no-underline"
+          className="text-[13px] 2xl:text-[14px] font-light text-white/40 hover:text-white transition-colors"
+          style={{ textDecoration: 'none' }}
         >
-          Developed by NEXEL
+          Developed by <span className="text-white">NEXEL</span>
         </a>
-        <div className="text-[13px] 2xl:text-[14px] font-light text-white/40 lg:text-white/50">
-          Copyright 2026
-        </div>
       </div>
     </footer>
   );
