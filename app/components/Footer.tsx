@@ -15,11 +15,10 @@ export default function Footer() {
           Copyright 2026
         </div>
         
-  href="https://t.me/est20x"
+ href="https://t.me/est20x"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-[13px] 2xl:text-[14px] font-light text-white/40 hover:text-white transition-colors"
-  style={{ textDecoration: 'none' }}>
+  className="text-[13px] 2xl:text-[14px] font-light text-white/40 hover:text-white transition-colors no-underline">
   Developed by <span className="text-white">NEXEL</span>
 </a>
       </div>
